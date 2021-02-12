@@ -1,6 +1,6 @@
 power = 0
 bits = {}
-x = 9
+x = 25
 y = 2
 quotient = x//y
 while True:
@@ -28,5 +28,7 @@ firstoccur = list.index(1)
 print(list)
 print("finished")
 print(list.count(1))
+print(firstoccur)
+print(list[firstoccur :])
 
 
