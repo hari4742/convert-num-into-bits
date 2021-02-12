@@ -19,6 +19,6 @@ while True:
        break
  list = []
  for i in range(9):
-    list.append (power.get(i,0))
+    list.append (bits.get(i,0))
 
 print(list)
